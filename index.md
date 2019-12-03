@@ -23,8 +23,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[NastyGal](https://www.nastygal.com/) and ![Image](src)
+ and ![Image](src)
 ```
+[NastyGal](https://www.nastygal.com/)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
