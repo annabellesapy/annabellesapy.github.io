@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Recette makis facile</title>
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
 </head>
 <body>
 	<h1>Recette makis facile</h1>
@@ -19,9 +21,17 @@
 	<p><br></p>
 	<h2>Recette</h2>
 	<ul>
-		<li>Etape 1 : Lavez le riz jusqu'à ce que l'eau qui s'en écoule soit claire, puis égouttez-le.</li>
-		<li>ÉTAPE 2
-Versez-le dans une casserole, puis recouvrez d’eau à 110% par rapport au poids du riz.</li>
+		<li>ETAPE 1 : Lavez le riz jusqu'à ce que l'eau qui s'en écoule soit claire, puis égouttez-le.</li>
+		<li>ÉTAPE 2 : Versez-le dans une casserole, puis recouvrez d’eau à 110% par rapport au poids du riz.</li>
 	</ul>
 	<p><br></p>
 		<img src="image sushi.jpg">
+	<span id="clock"></span>
+<script type="text/javascript">
+  // 15 days from now!
+  var date = new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
+  $('#clock').countdown(date, function(event) {
+    $(this).html(event.strftime('%D days %H:%M:%S'));
+  });
+</script>
+</body>
