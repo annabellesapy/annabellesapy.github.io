@@ -25,7 +25,7 @@ Syntax highlighted code block
 
  and ![Image](src)
 ```
-[NastyGal](https://www.nastygal.com/)
+[Nasty Gal](https://www.nastygal.com/)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
